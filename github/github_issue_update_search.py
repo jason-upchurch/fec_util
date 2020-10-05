@@ -46,7 +46,3 @@ for repo in REPOSITORIES:
                 report_string = GITHUB_USERNAME + ' has not commented on issue:\n' + str(issue_url) + '\n'
         if report_string:
             print(report_string)
-
-
-
-    
